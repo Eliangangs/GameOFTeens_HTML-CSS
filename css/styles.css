@@ -216,3 +216,8 @@
     color: #1A5276;
     margin-bottom: 20px;
 }
+.footer-window{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
