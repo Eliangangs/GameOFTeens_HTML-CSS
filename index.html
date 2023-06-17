@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/adobtive.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>NeoSchool</title>
+</head>
+<body>
+    <!-- Шапка з навігацією -->
+    <header class="header">
+        <p href="#" class="logo">Neo<span class="logo-part">School</span></a>
+        <nav class="navigation">
+            <ol class="list">
+                <li><a class="element" href="#">Головна</a></li>
+                <li><a class="element" href="#trafic">Тарифи</a></li>
+                <li><a class="element" href="#shedule">Розклад</a></li>
+            </ol>
+        </nav>
+    </header>
+    <!-- Унікальний контент -->
+    <main class="main">
+        <!-- Херо секція -->
+        <section class="hero">
+            <h1 class="hero-title">Школа NeoSchool</h1>
+            <p class="hero-subtitle">Бажання та мрія кожного</p>
+        </section>
+        <!-- Про нас -->
+        <section class="about-school">
+            <div class="group">
+                <div class="img">
+                    <img src="./img/school.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>Про нашу школу</h2>
+                    <p>Наша інноваційна школа NeoSchool, де можна отримати не тільки знання з основних предметів, але й розвиватись як IT спеціаліст, а ще отримати табель затвердженний Міністерством освіти.</p>
+                    <p>Всі ваші мрії про ідеальну школу тепер можна втілити на цьому сайті.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Тарифи навчання -->
+        <section class="trafic" id="trafic">
+            <h2>Тарифи навчання</h2>
+            <ul class="cards">
+                <li class="card">
+                    <h3 class="card-title">Standart</h3>
+                    <img src="./img/school1.jpg" alt="" width="300" height="168">
+                    <p class="card-description">Програма складається з теоретичних занять</p>
+                    <div class="card-buy">
+                        <p class="card-price">Безкоштовно</p>
+                        <a href="./buy.html"><img class="card-img" src="./img/cart.png" alt=""></a>
+                    </div>
+                </li>
+                <li class="card">
+                    <h3 class="card-title">Medium</h3>
+                    <img src="./img/school2.jpg" alt="" width="300" height="168">
+                    <p class="card-description">Програма standart + практичні заняття</p>
+                    <div class="card-buy">
+                        <p class="card-price">Ціна 500$</p>
+                        <a href="./buy.html"><img class="card-img" src="./img/cart.png" alt=""></a>
+                    </div>
+                </li>
+                <li class="card">
+                    <h3 class="card-title">Ultra</h3>
+                    <img src="./img/school3.jpg" alt="" width="300" height="168">
+                    <p class="card-description">Програма medium + конкурси, семінари та виїзди</p>
+                    <div class="card-buy">
+                        <p class="card-price">Ціна 1200$</p>
+                        <a href="./buy.html"><img class="card-img" src="./img/cart.png" alt=""></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- Розклад занять -->
+        <section class="shedule" id="shedule">
+            <h2>Розклад занять</h2>
+            <div class="shedule-table">
+                <p class="shedule-decorate">9:00 початок уроків</p>
+                <p>10:20-10:40 перерва</p>
+                <p class="shedule-decorate">10:40 продовження уроку</p>
+                <p>12:00-12:30 обід</p>
+                <p class="shedule-decorate">12:30 продовження уроку</p>
+                <p>13:50 закінченя уроків</p>
+            </div>
+        </section>
+        <!-- Форма регістрації -->
+        <section class="form">
+            <form action="#">
+                <h2>Реєстрація</h2>
+                <input class="form-input" type="text" placeholder="Ваше ім'я">
+                <input class="form-input" type="text" placeholder="Пошта">
+                <input class="form-input" type="text" placeholder="Номер телефону">
+                <p class="form-text">Зареєструйтесь на перше заняття</p>
+                <a href="./regіstration.html" class="btn">Підтвердити</a>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="navigation">
+            <ol class="list list-footer">
+                <li><a class="element" href="mailto:Neoschool@gmail.com">NeoSchool@gmail.com</a></li>
+                <li><a class="element" href="tel:+380509525558">+38 050 952 5558</a></li>
+            </ol>
+        </nav>
+        <a href="#" class="logo">Neo<span class="logo-part">School</span></a>
+    </footer>
+</body>
+</html>

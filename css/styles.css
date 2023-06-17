@@ -1,0 +1,217 @@
+/* Шапка */
+.header, footer{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #154360;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.list{
+    display: flex;
+    gap: 20px;
+    
+}
+.element{
+    color: #61c8d8;
+    transition: color .5s;
+}
+.element:hover{
+    color: #2f97a7;
+    text-decoration: underline;
+}
+.logo{
+    cursor: pointer;
+    font-size: 50px;
+}
+.logo-part{
+    font-size: 50px;
+    color: #61c8d8;
+}
+.contacts{
+    max-width: 300px;
+}
+/* Main */
+.hero{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.hero-title{
+    cursor: default;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #154360;
+    margin: 0;
+}
+.hero-subtitle{
+    cursor: default;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #154360;
+    margin: 0;
+}
+/* Про нас */
+.about-school{
+    margin-top: 10px;
+}
+.group{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    max-width: 1080px;
+    gap: 20px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #1A5276;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.group h2{
+    color: #61c8d8;
+}
+.text{
+    width: 600px;
+    padding: 0px 5px;
+}
+/* Тарифи навчаня */
+.cards{
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.card{
+    text-align: center;
+    width: 300px;
+    height: 420px;
+    background-color: #1A5276;
+    border-radius: 10px;
+}
+.card-buy{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    gap: 10px;
+    align-items: center;
+}
+.card-img{
+    width: 60px;
+    border: 2px solid #154360;
+    background-color: #61c8d8;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.card-img:hover{
+    background-color: #2f97a7;
+}
+.card-title{
+    color: #61c8d8;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.card-description{
+    height: 50px;
+}
+.card-price{
+    font-size: 25px;
+}
+/* Розклад занять */
+.shedule{
+    border-radius: 5px;
+    padding: 10px 0;
+    max-width: 900px;
+    text-align: center;
+    background-color: #2874A6;
+    margin: auto;
+}
+.shedule h2{
+    color: #61c8d8;
+}
+.shedule p{
+    margin-bottom: 10px;
+}
+.shedule-decorate{
+    background-color: #2E86C1;
+    margin: 0 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Форма */
+.form{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form-input{
+    display: block;
+    margin: auto;
+    width: 280px;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px #61c8d8 solid;
+    outline: none;
+}
+.form-input:focus{
+    border: 2px #2f97a7 solid;
+}
+.form-text{
+    color: #154360;
+    margin-bottom: 15px;
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #2E86C1;
+    border: #154360 2px solid;
+    transition: all .5s;
+}
+.btn:hover{
+    background-color: #2f97a7;
+}
+
+.list-footer{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list{
+    padding: 10px 0;
+}
+/* Інші сторінки */
+.window{
+    max-width: 600px;
+    height: 250px;
+    margin: auto;
+    background-color: #cdf8ff;
+    
+    padding: 0px 20px;
+    text-align: center;
+    border: solid 2px #154360;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+.module{
+    background-image: url(../img/backgroung-form.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.buy-title{
+    font-size: 50px;
+    color: #61c8d8;
+}
+.buy-text{
+    margin: auto;
+    max-width: 240px;
+    font-size: 20px;
+    color: #1A5276;
+    margin-bottom: 20px;
+}
